@@ -15,7 +15,12 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>KH2FM-ReToolbox-Icon.png</PackageIcon>
     <Description>A KH2FM Toolbox to make modding easier.</Description>
+    <ApplicationIcon>KH2FM-ReToolbox-Icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="KH2FM-ReToolbox-Icon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
