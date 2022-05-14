@@ -9,8 +9,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Authors>EmreX_Coded</Authors>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>pre-alpha-1.0</AssemblyVersion>
-    <FileVersion>pre-alpha-1.0</FileVersion>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion>0.0.1</FileVersion>
     <RepositoryUrl>https://github.com/EmreXCoded/KH2FM-ReToolbox</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>KH2FM-ReToolbox-Icon.png</PackageIcon>
