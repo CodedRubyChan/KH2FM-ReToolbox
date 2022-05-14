@@ -10,5 +10,9 @@ namespace KH2FM_ReToolbox
             InitializeComponent();
         }
 
+        private void metroSetButton1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is a Test Message");
+        }
     }
 }
