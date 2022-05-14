@@ -8,10 +8,21 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Authors>EmreX_Coded</Authors>
-    <RepositoryType></RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <AssemblyVersion>pre-alpha-1.0</AssemblyVersion>
     <FileVersion>pre-alpha-1.0</FileVersion>
+    <RepositoryUrl>https://github.com/EmreXCoded/KH2FM-ReToolbox</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>KH2FM-ReToolbox-Icon.png</PackageIcon>
+    <Description>A KH2FM Toolbox to make modding easier.</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="KHMemLibrary" Version="1.2.36" />
@@ -31,6 +42,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="KH2FM-ReToolbox-Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
