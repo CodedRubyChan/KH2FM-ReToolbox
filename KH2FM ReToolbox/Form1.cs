@@ -15,7 +15,6 @@ namespace KH2FM_ReToolbox
 
         private void metroSetButton1_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Du elendiger Hurensohn");
             MetroSetMessageBox.Show(this, "Du elendiger Hurensohn", "HS", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
