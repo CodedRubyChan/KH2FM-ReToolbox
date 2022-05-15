@@ -10,7 +10,7 @@
     <Authors>EmreX_Coded</Authors>
     <RepositoryType>git</RepositoryType>
     <AssemblyVersion></AssemblyVersion>
-    <FileVersion>0.0.1</FileVersion>
+    <FileVersion>0.0.2</FileVersion>
     <RepositoryUrl>https://github.com/EmreXCoded/KH2FM-ReToolbox</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>KH2FM-ReToolbox-Icon.png</PackageIcon>
