@@ -36,6 +36,9 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.metroSetTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -77,6 +80,9 @@
             this.metroSetTabControl1.Controls.Add(this.tabPage3);
             this.metroSetTabControl1.Controls.Add(this.tabPage4);
             this.metroSetTabControl1.Controls.Add(this.tabPage5);
+            this.metroSetTabControl1.Controls.Add(this.tabPage6);
+            this.metroSetTabControl1.Controls.Add(this.tabPage7);
+            this.metroSetTabControl1.Controls.Add(this.tabPage8);
             this.metroSetTabControl1.IsDerivedStyle = true;
             this.metroSetTabControl1.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl1.Location = new System.Drawing.Point(15, 84);
@@ -104,7 +110,7 @@
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Size = new System.Drawing.Size(762, 305);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Test1";
+            this.tabPage1.Text = "Sora";
             // 
             // metroSetButton1
             // 
@@ -141,7 +147,7 @@
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(762, 305);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Test2";
+            this.tabPage2.Text = "Donald";
             // 
             // tabPage3
             // 
@@ -151,7 +157,7 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(762, 305);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Test3";
+            this.tabPage3.Text = "Goofy";
             // 
             // tabPage4
             // 
@@ -161,7 +167,7 @@
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(762, 305);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Test4";
+            this.tabPage4.Text = "Items";
             // 
             // tabPage5
             // 
@@ -172,7 +178,34 @@
             this.tabPage5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tabPage5.Size = new System.Drawing.Size(762, 305);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Test5";
+            this.tabPage5.Text = "Misc.";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage6.Location = new System.Drawing.Point(4, 42);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(762, 305);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Video Tutorials";
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage7.Location = new System.Drawing.Point(4, 42);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(762, 305);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Text Tutorials";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage8.Location = new System.Drawing.Point(4, 42);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(762, 305);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Custom RAM Modding";
             // 
             // Form1
             // 
@@ -206,5 +239,8 @@
         private TabPage tabPage4;
         private TabPage tabPage5;
         private MetroSet_UI.Controls.MetroSetButton metroSetButton1;
+        private TabPage tabPage6;
+        private TabPage tabPage7;
+        private TabPage tabPage8;
     }
 }
