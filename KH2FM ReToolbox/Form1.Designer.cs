@@ -39,6 +39,9 @@
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.metroSetLabel1 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.metroSetLabel2 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.metroSetLabel3 = new MetroSet_UI.Controls.MetroSetLabel();
             this.metroSetTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +54,7 @@
             this.metroSetControlBox1.CloseNormalForeColor = System.Drawing.Color.Gray;
             this.metroSetControlBox1.DisabledForeColor = System.Drawing.Color.DimGray;
             this.metroSetControlBox1.IsDerivedStyle = true;
-            this.metroSetControlBox1.Location = new System.Drawing.Point(703, -4);
+            this.metroSetControlBox1.Location = new System.Drawing.Point(903, -4);
             this.metroSetControlBox1.Margin = new System.Windows.Forms.Padding(2);
             this.metroSetControlBox1.MaximizeBox = true;
             this.metroSetControlBox1.MaximizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
@@ -207,6 +210,48 @@
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Custom RAM Modding";
             // 
+            // metroSetLabel1
+            // 
+            this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.metroSetLabel1.IsDerivedStyle = true;
+            this.metroSetLabel1.Location = new System.Drawing.Point(790, 95);
+            this.metroSetLabel1.Name = "metroSetLabel1";
+            this.metroSetLabel1.Size = new System.Drawing.Size(100, 23);
+            this.metroSetLabel1.Style = MetroSet_UI.Enums.Style.Dark;
+            this.metroSetLabel1.StyleManager = null;
+            this.metroSetLabel1.TabIndex = 3;
+            this.metroSetLabel1.Text = "Misc. Info";
+            this.metroSetLabel1.ThemeAuthor = "Narwin";
+            this.metroSetLabel1.ThemeName = "MetroDark";
+            // 
+            // metroSetLabel2
+            // 
+            this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.metroSetLabel2.IsDerivedStyle = true;
+            this.metroSetLabel2.Location = new System.Drawing.Point(790, 126);
+            this.metroSetLabel2.Name = "metroSetLabel2";
+            this.metroSetLabel2.Size = new System.Drawing.Size(100, 23);
+            this.metroSetLabel2.Style = MetroSet_UI.Enums.Style.Dark;
+            this.metroSetLabel2.StyleManager = null;
+            this.metroSetLabel2.TabIndex = 4;
+            this.metroSetLabel2.Text = "In-Game Time";
+            this.metroSetLabel2.ThemeAuthor = "Narwin";
+            this.metroSetLabel2.ThemeName = "MetroDark";
+            // 
+            // metroSetLabel3
+            // 
+            this.metroSetLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.metroSetLabel3.IsDerivedStyle = true;
+            this.metroSetLabel3.Location = new System.Drawing.Point(896, 126);
+            this.metroSetLabel3.Name = "metroSetLabel3";
+            this.metroSetLabel3.Size = new System.Drawing.Size(100, 23);
+            this.metroSetLabel3.Style = MetroSet_UI.Enums.Style.Dark;
+            this.metroSetLabel3.StyleManager = null;
+            this.metroSetLabel3.TabIndex = 5;
+            this.metroSetLabel3.Text = "tmp";
+            this.metroSetLabel3.ThemeAuthor = "Narwin";
+            this.metroSetLabel3.ThemeName = "MetroDark";
+            // 
             // Form1
             // 
             this.AllowResize = false;
@@ -214,7 +259,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1000, 450);
+            this.Controls.Add(this.metroSetLabel3);
+            this.Controls.Add(this.metroSetLabel2);
+            this.Controls.Add(this.metroSetLabel1);
             this.Controls.Add(this.metroSetTabControl1);
             this.Controls.Add(this.metroSetControlBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -242,5 +290,8 @@
         private TabPage tabPage6;
         private TabPage tabPage7;
         private TabPage tabPage8;
+        private MetroSet_UI.Controls.MetroSetLabel metroSetLabel1;
+        private MetroSet_UI.Controls.MetroSetLabel metroSetLabel2;
+        private MetroSet_UI.Controls.MetroSetLabel metroSetLabel3;
     }
 }
